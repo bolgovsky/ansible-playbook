@@ -19,6 +19,8 @@ Failed to get D-Bus connection: Operation not permitted
 * Производится установка [Vector](https://github.com/bolgovsky/ansible-playbook/blob/main/group_vars/vector/vars.yml) 
 версии 0.22.1 (более новые тащат кучу зависимостей и запуск выпадает в ошибку)
 
+
+Пример вывода:
 ```bash 
 denis@DenisPC:~/ansible-playbook-cvl/playbook$ ansible-playbook -i inventory/prod.yml site.yml -v
 Using /etc/ansible/ansible.cfg as config file
